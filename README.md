@@ -37,12 +37,12 @@ Top-10 news recommendations ranked by relevance score.
 This project uses the **MIND Large** dataset, preprocessed into two parts:
 
 ### 1. Raw & Processed Features
-[`zainabhalhoul/mindlarge`](https://www.kaggle.com/datasets/zainabhalhoul/mindlarge)
+[Processed MIND_Large](https://www.kaggle.com/datasets/zainabhalhoul/mindlarge)
 - **Contents**: Processed article features, category encoders, and metadata.
 - **Key files**: `train/article_features.parquet` (contains text, entity embeddings, category IDs), `metadata.json`.
 
 ### 2. Precomputed Graph Edges & Sequences
-[`zainabhalhoul/mindlarge-edges`](https://www.kaggle.com/datasets/zainabhalhoul/mindlarge-edges)
+[MIND_Large Edges](https://www.kaggle.com/datasets/zainabhalhoul/mindlarge-edges)
 - **Contents**: Pre-built graph structures and train/dev sequences for efficient training.
 - **Key files**:
   - `edge_index.npy` - User-item interaction graph edges.
